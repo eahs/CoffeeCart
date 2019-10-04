@@ -13,4 +13,12 @@
     <PackageReference Include="Xamarin.Forms" Version="4.1.0.555618" />  
     <PackageReference Include="Xamarin.Essentials" Version="1.1.0" />
   </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Remove="Views\JunkPage.xaml" />
+    <EmbeddedResource Remove="Views\MyPage.xaml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="Views\JunkPage.xaml.cs" />
+    <Compile Remove="Views\MyPage.xaml.cs" />
+  </ItemGroup>
 </Project>
