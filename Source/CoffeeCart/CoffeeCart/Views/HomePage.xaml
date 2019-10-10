@@ -2,6 +2,29 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="CoffeeCart.Views.HomePage">
     <ContentPage.Content>
         <Label Text="Welcome to the home page." HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" />
-   
+
     </ContentPage.Content>
+    
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+    <StackLayout Orientation="Vertical" Padding = "20,50,10,10" Spacing="10">
+         <Label FontSize="22">
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <FormattedString.Spans>
+                                <Span Text="Ready to Order?" FontAttributes="Bold" FontSize="22"/>
+                            </FormattedString.Spans>
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+    <Button Margin="60,300,100,0" Text="Order" FontSize="40" FontAttributes="Bold"
+                        Command="{Binding OpenWebCommand}"
+                        BackgroundColor="Red"
+                        TextColor="White" />
+        </StackLayout>
+        </Grid>
 </ContentPage> 

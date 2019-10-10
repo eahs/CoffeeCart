@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="CoffeeCart.Views.SugarPage">
+    <ContentPage.Content>
+        <Label Text="Amount of Sugar" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" />
+    </ContentPage.Content>
+     <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+
+        <StackLayout Orientation="Vertical" Padding = "20,50,10,10" Spacing="10">
+         <Label FontSize="22">
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <FormattedString.Spans>
+                                <Span Text="Sugar" FontAttributes="Bold" FontSize="35"/>
+                            </FormattedString.Spans>
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+        </StackLayout>
+
+         <StackLayout Orientation="Vertical" Padding = "20,95,20,10" Spacing="10">
+         <Label FontSize="12">
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <FormattedString.Spans>
+                                <Span Text="Input the amount of sugar" FontSize="14"/>
+                            </FormattedString.Spans>
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+        </StackLayout>
+<Entry Placeholder="Enter Number of Sugar Packets" Margin="50,250,20,0"/>
+         </Grid>
+</ContentPage>

@@ -34,11 +34,14 @@
         <Tab Title="Browse" Icon="tab_feed.png">
             <ShellContent ContentTemplate="{DataTemplate local:ItemsPage}" />
         </Tab>
-        <Tab Title="About" Icon="tab_about.png">
+        <Tab Title="Home" Icon="tab_about.png">
             <ShellContent ContentTemplate="{DataTemplate local:HomePage}" />
         </Tab>
         <Tab Title="About" Icon="tab_about.png">
             <ShellContent ContentTemplate="{DataTemplate local:AboutPage}" />
+        </Tab>
+        <Tab Title="Sugar" Icon="tab_about.png">
+            <ShellContent ContentTemplate="{DataTemplate local:SugarPage}" />
         </Tab>
     </TabBar>
 
