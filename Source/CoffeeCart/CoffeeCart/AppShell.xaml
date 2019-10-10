@@ -37,6 +37,9 @@
         <Tab Title="Home" Icon="tab_about.png">
             <ShellContent ContentTemplate="{DataTemplate local:HomePage}" />
         </Tab>
+        <Tab Title="Coffee Types" Icon="tab_feed.png">
+            <ShellContent ContentTemplate="{DataTemplate local:TypeOfCoffeePage}" />
+        </Tab>
         <Tab Title="About" Icon="tab_about.png">
             <ShellContent ContentTemplate="{DataTemplate local:AboutPage}" />
         </Tab>

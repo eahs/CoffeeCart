@@ -10,7 +10,7 @@
         </Grid.RowDefinitions>
 
 
-        <StackLayout Orientation="Vertical" Padding = "20,50,10,10" Spacing="10">
+         <StackLayout Orientation="Vertical" Padding = "20,50,10,10" Spacing="10">
          <Label FontSize="22">
                     <Label.FormattedText>
                         <FormattedString>
@@ -20,8 +20,8 @@
                         </FormattedString>
                     </Label.FormattedText>
                 </Label>
-        </StackLayout>
-
+         </StackLayout>
+         
          <StackLayout Orientation="Vertical" Padding = "20,95,20,10" Spacing="10">
          <Label FontSize="12">
                     <Label.FormattedText>
@@ -32,7 +32,38 @@
                         </FormattedString>
                     </Label.FormattedText>
                 </Label>
-        </StackLayout>
-<Entry Placeholder="Enter Number of Sugar Packets" Margin="50,250,20,0"/>
+         </StackLayout>
+
+         <StackLayout Orientation="Vertical" Padding = "20,155,20,10" Spacing="10">
+         <Label FontSize="12">
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <FormattedString.Spans>
+                                <Span Text="Sugar:" FontSize="20"/>
+                            </FormattedString.Spans>
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+         </StackLayout>
+         <Entry Placeholder="Enter:" Margin="20,190,210,120"/>
+
+         <StackLayout Orientation="Vertical" Padding = "20,265,20,20" Spacing="10">
+         <Label FontSize="12">
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <FormattedString.Spans>
+                                <Span Text="Splenda:" FontSize="20"/>
+                            </FormattedString.Spans>
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+         </StackLayout>
+         <Entry Placeholder="Enter:" Margin="20,295,210,20"/>
+
+
+
+
+
+
          </Grid>
 </ContentPage>

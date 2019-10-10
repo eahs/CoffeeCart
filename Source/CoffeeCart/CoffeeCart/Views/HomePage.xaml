@@ -11,7 +11,7 @@
             <RowDefinition Height="*" />
         </Grid.RowDefinitions>
 
-    <StackLayout Orientation="Vertical" Padding = "20,50,10,10" Spacing="10">
+    <StackLayout Orientation="Vertical" Padding = "120,50,55,0" Spacing="10">
          <Label FontSize="22">
                     <Label.FormattedText>
                         <FormattedString>
@@ -21,7 +21,7 @@
                         </FormattedString>
                     </Label.FormattedText>
                 </Label>
-    <Button Margin="60,300,100,0" Text="Order" FontSize="40" FontAttributes="Bold"
+    <Button Margin="0,300,50,0" Text="Order" FontSize="40" FontAttributes="Bold"
                         Command="{Binding OpenWebCommand}"
                         BackgroundColor="Red"
                         TextColor="White" />
