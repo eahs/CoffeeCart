@@ -34,7 +34,17 @@
         <Tab Title="Browse" Icon="tab_feed.png">
             <ShellContent ContentTemplate="{DataTemplate local:ItemsPage}" />
         </Tab>
+<<<<<<< Updated upstream
         <Tab Title="Home" Icon="tab_about.png">
+=======
+        <Tab Title="Type" Icon="tab_feed.png">
+            <ShellContent ContentTemplate="{DataTemplate local:TypeOfCoffeePage}" />
+        </Tab>
+        <Tab Title="Creamer" Icon="tab_feed.png">
+            <ShellContent ContentTemplate="{DataTemplate local:PickCreamerPage}" />
+        </Tab>
+        <Tab Title="About" Icon="tab_about.png">
+>>>>>>> Stashed changes
             <ShellContent ContentTemplate="{DataTemplate local:HomePage}" />
         </Tab>
         <Tab Title="Coffee Types" Icon="tab_feed.png">

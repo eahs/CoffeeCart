@@ -21,4 +21,9 @@
     <Compile Remove="Views\JunkPage.xaml.cs" />
     <Compile Remove="Views\MyPage.xaml.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <Compile Update="Views\PickCreamerPage.xaml.cs">
+      <DependentUpon>PickCreamerPage.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
 </Project>

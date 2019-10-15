@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="CoffeeCart.Views.PickCreamerPage">
+    <ContentPage.Content>
+         <Label Text="What type of coffee would you like to order?" HorizontalOptions="CenterAndExpand" VerticalOptions="StartAndExpand"/>
+    </ContentPage.Content>
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+       
+       <Entry Placeholder="hofrrdw[" />
+            <StackLayout Orientation="Vertical" Padding="20,50,20,10" Spacing="10">
+                <Label FontSize="22">
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <FormattedString.Spans>
+                                <Span Text="Creamer Cups" FontAttributes="Bold" FontSize="35" />
+                            </FormattedString.Spans>
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+                </StackLayout>
+            <StackLayout Orientation="Vertical" Padding="20,95,20,10" Spacing="10">
+                <Label FontSize="22">
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <FormattedString.Spans>
+                                <Span Text="Input the number of cups for each" FontSize="14" />
+                            </FormattedString.Spans>
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+                </StackLayout>
+            <StackLayout Orientation="Vertical" Padding="20,175,20,10" Spacing="10">
+                <Label FontSize="22">
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <FormattedString.Spans>
+                                <Span Text="Half and Half: " FontAttributes="Bold" FontSize="20" />
+                            </FormattedString.Spans>
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+                </StackLayout>
+            <StackLayout Orientation="Vertical" Padding="20,245,20,10" Spacing="10">
+                <Label FontSize="22">
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <FormattedString.Spans>
+                                <Span Text="French Vanilla: " FontAttributes="Bold" FontSize="20" />
+                            </FormattedString.Spans>
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+                </StackLayout>
+        
+       
+    </Grid>
+
+</ContentPage>
