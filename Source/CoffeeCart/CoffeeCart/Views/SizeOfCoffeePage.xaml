@@ -1,7 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="CoffeeCart.Views.SizeOfCoffeePage">
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="CoffeeCart.Views.MyView">
     <ContentPage.Content>
         <Label Text="Now it's time to pick your size!" HorizontalOptions="CenterAndExpand" VerticalOptions="StartAndExpand"/>
     </ContentPage.Content>
@@ -26,15 +24,15 @@
                
                 <Button Margin="0,45,0,0" Text="Small"
                         Command="{Binding OpenWebCommand}"
-                        BackgroundColor="IndianRed"
+                        BackgroundColor="DarkSlateBlue"
                         TextColor="White" />
                 <Button Margin="0,10,0,0" Text="Medium"
                         Command="{Binding OpenWebCommand}"
-                        BackgroundColor="IndianRed"
+                        BackgroundColor="DarkSlateBlue"
                         TextColor="White" />
                 <Button Margin="0,10,0,0" Text="Large"
                         Command="{Binding OpenWebCommand}"
-                        BackgroundColor="IndianRed"
+                        BackgroundColor="DarkSlateBlue"
                         TextColor="White" />
             </StackLayout>
        
