@@ -10,7 +10,8 @@
             <RowDefinition Height="*" />
         </Grid.RowDefinitions>
        
-       <Entry Placeholder="hofrrdw[" />
+
+        
             <StackLayout Orientation="Vertical" Padding="20,50,20,10" Spacing="10">
                 <Label FontSize="22">
                     <Label.FormattedText>
@@ -27,34 +28,44 @@
                     <Label.FormattedText>
                         <FormattedString>
                             <FormattedString.Spans>
-                                <Span Text="Input the number of cups for each" FontSize="14" />
+                                <Span Text="Input the amount of creamer cups" FontSize="14" />
                             </FormattedString.Spans>
                         </FormattedString>
                     </Label.FormattedText>
                 </Label>
                 </StackLayout>
-            <StackLayout Orientation="Vertical" Padding="20,175,20,10" Spacing="10">
-                <Label FontSize="22">
+            <StackLayout Orientation="Vertical" Padding = "20,155,20,10" Spacing="10">
+                <Label FontSize="12">
                     <Label.FormattedText>
                         <FormattedString>
                             <FormattedString.Spans>
-                                <Span Text="Half and Half: " FontAttributes="Bold" FontSize="20" />
+                                <Span Text="Half and Half:" FontSize="20"/>
                             </FormattedString.Spans>
                         </FormattedString>
                     </Label.FormattedText>
                 </Label>
                 </StackLayout>
-            <StackLayout Orientation="Vertical" Padding="20,245,20,10" Spacing="10">
-                <Label FontSize="22">
+                <Entry Placeholder="Enter" Margin="20,190,210,450"/>
+            <StackLayout Orientation="Vertical" Padding = "20,265,20,20" Spacing="10">
+                <Label FontSize="12">
                     <Label.FormattedText>
                         <FormattedString>
                             <FormattedString.Spans>
-                                <Span Text="French Vanilla: " FontAttributes="Bold" FontSize="20" />
+                                <Span Text="French Vanilla:" FontSize="20"/>
                             </FormattedString.Spans>
                         </FormattedString>
                     </Label.FormattedText>
                 </Label>
                 </StackLayout>
+                <Entry Placeholder="Enter" Margin="20,295,210,350"/>
+
+            <StackLayout Orientation="Vertical" Padding="10,135,10,10" Spacing="15">   
+              
+                <Button Margin="125,300,125,0" Text="Enter" FontSize="30"
+                        Command="{Binding OpenWebCommand}"
+                        BackgroundColor="IndianRed"
+                        TextColor="White" />
+            </StackLayout>
         
        
     </Grid>
