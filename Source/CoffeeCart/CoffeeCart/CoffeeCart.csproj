@@ -15,10 +15,24 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Remove="Views\JunkPage.xaml" />
+    <EmbeddedResource Remove="Views\MyView.xaml" />
     <EmbeddedResource Remove="Views\MyPage.xaml" />
+    <EmbeddedResource Remove="Views\SizeCoffeePage.xaml" />
   </ItemGroup>
   <ItemGroup>
     <Compile Remove="Views\JunkPage.xaml.cs" />
-    <Compile Remove="Views\MyPage.xaml.cs" />
+    <Compile Remove="Views\MyView.xaml.cs" />
+    <Compile Remove="Views\SizeCoffeePage.xaml.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Views\EmptyXmlFile.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="Views\SizePage.xaml.cs">
+      <DependentUpon>SizePage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\MyPage.xaml.cs">
+      <DependentUpon>SizeCoffeePage.xaml</DependentUpon>
+    </Compile>
   </ItemGroup>
 </Project>
