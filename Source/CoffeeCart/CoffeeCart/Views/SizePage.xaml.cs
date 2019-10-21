@@ -5,9 +5,9 @@ using Xamarin.Forms;
 
 namespace CoffeeCart.Views
 {
-    public partial class SizeOfCoffeePage : ContentPage
+    public partial class SizePage : ContentPage
     {
-        public SizeOfCoffeePage()
+        public SizePage()
         {
             InitializeComponent();
         }

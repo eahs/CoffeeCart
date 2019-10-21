@@ -28,9 +28,6 @@
     <None Remove="Views\EmptyXmlFile.xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Update="Views\SizePage.xaml.cs">
-      <DependentUpon>SizeOfCoffeePage.xaml</DependentUpon>
-    </Compile>
     <Compile Update="Views\MyPage.xaml.cs">
       <DependentUpon>SizeCoffeePage.xaml</DependentUpon>
     </Compile>
