@@ -35,4 +35,9 @@
       <DependentUpon>SizeCoffeePage.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
+  <ItemGroup>
+    <Compile Update="Views\PickCreamerPage.xaml.cs">
+      <DependentUpon>PickCreamerPage.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
 </Project>

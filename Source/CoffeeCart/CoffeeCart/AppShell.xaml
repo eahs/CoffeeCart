@@ -31,17 +31,17 @@
 
     <!-- Your Pages -->
     <TabBar>
-        <Tab Title="Browse" Icon="tab_feed.png">
-            <ShellContent ContentTemplate="{DataTemplate local:ItemsPage}" />
-        </Tab>
+        
+
+       
         <Tab Title="Home" Icon="tab_about.png">
             <ShellContent ContentTemplate="{DataTemplate local:HomePage}" />
         </Tab>
         <Tab Title="Coffee Types" Icon="tab_feed.png">
             <ShellContent ContentTemplate="{DataTemplate local:TypeOfCoffeePage}" />
         </Tab>
-        <Tab Title="About" Icon="tab_about.png">
-            <ShellContent ContentTemplate="{DataTemplate local:AboutPage}" />
+        <Tab Title="Creamer" Icon="tab_feed.png">
+            <ShellContent ContentTemplate="{DataTemplate local:PickCreamerPage}" />
         </Tab>
         <Tab Title="Sugar" Icon="tab_about.png">
             <ShellContent ContentTemplate="{DataTemplate local:SugarPage}" />
@@ -51,6 +51,9 @@
         </Tab>
           <Tab Title="Confirmation" Icon="tab_about.png">
             <ShellContent ContentTemplate="{DataTemplate local:EndPage}" />
+        </Tab>
+         <Tab Title="About" Icon="tab_about.png">
+            <ShellContent ContentTemplate="{DataTemplate local:AboutPage}" />
         </Tab>
     </TabBar>
 

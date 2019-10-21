@@ -5,12 +5,13 @@ using Xamarin.Forms;
 
 namespace CoffeeCart.Views
 {
-    public partial class TypeOfCoffeePage : ContentPage
+    public partial class PickCreamerPage : ContentPage
     {
-        public TypeOfCoffeePage()
+        public PickCreamerPage()
         {
             InitializeComponent();
-           
+            
         }
+       
     }
 }
