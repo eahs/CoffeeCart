@@ -47,7 +47,7 @@
             <ShellContent ContentTemplate="{DataTemplate local:SugarPage}" />
         </Tab>
         <Tab Title="Size of Coffee" Icon="tab_feed.png">
-            <ShellContent ContentTemplate="{DataTemplate local:SizeOfCoffeePage}" />
+            <ShellContent ContentTemplate="{DataTemplate local:SizePage}" />
         </Tab>
           <Tab Title="Confirmation" Icon="tab_about.png">
             <ShellContent ContentTemplate="{DataTemplate local:EndPage}" />
