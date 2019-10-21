@@ -16,14 +16,14 @@
                     <Label.FormattedText>
                         <FormattedString>
                             <FormattedString.Spans>
-                                <Span Text="Ready to Order?" FontAttributes="Bold" FontSize="22"/>
+                                <Span Text="Ready to Order?" FontAttributes="Bold" FontSize="42"/>
                             </FormattedString.Spans>
                         </FormattedString>
                     </Label.FormattedText>
                 </Label>
     <Button Margin="0,300,50,0" Text="Order" FontSize="40" FontAttributes="Bold"
                         Command="{Binding OpenWebCommand}"
-                        BackgroundColor="Red"
+                        BackgroundColor="IndianRed"
                         TextColor="White" />
         </StackLayout>
         </Grid>
