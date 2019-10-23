@@ -10,6 +10,8 @@ namespace CoffeeCart
         public AppShell()
         {
             InitializeComponent();
+            
         }
+   
     }
 }

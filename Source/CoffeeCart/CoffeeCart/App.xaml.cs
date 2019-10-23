@@ -14,7 +14,7 @@ namespace CoffeeCart
             InitializeComponent();
 
             DependencyService.Register<MockDataStore>();
-            MainPage = new AppShell();
+            MainPage = new NavigationPage(new HomePage());
         }
 
         protected override void OnStart()
