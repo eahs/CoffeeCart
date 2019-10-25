@@ -12,9 +12,9 @@ namespace CoffeeCart
         public App()
         {
             InitializeComponent();
-
             DependencyService.Register<MockDataStore>();
-            MainPage = new NavigationPage(new HomePage());
+            MainPage = new NavigationPage(new HomePage()); 
+            
         }
 
         protected override void OnStart()

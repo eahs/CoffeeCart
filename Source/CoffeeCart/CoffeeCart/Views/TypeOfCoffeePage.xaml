@@ -1,47 +1,42 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="CoffeeCart.Views.TypeOfCoffeePage">
-    <ContentPage.Content>
-        <Label Text="What type of coffee would you like to order?" HorizontalOptions="CenterAndExpand" VerticalOptions="StartAndExpand"/>
-    </ContentPage.Content>
-    
-    <Grid>
-        <Grid.RowDefinitions>
-            <RowDefinition Height="Auto" />
-            <RowDefinition Height="*" />
-        </Grid.RowDefinitions>
-       
-       
-            <StackLayout Orientation="Vertical" Padding="20,50,20,10" Spacing="10">
-                <Label FontSize="22">
-                    <Label.FormattedText>
-                        <FormattedString>
-                            <FormattedString.Spans>
-                                <Span Text="What type of drink would you like to order?" FontAttributes="Bold" FontSize="35" />
-                            </FormattedString.Spans>
-                        </FormattedString>
-                    </Label.FormattedText>
-                </Label>
-                </StackLayout>
 
+    <AbsoluteLayout>
+             <Label HorizontalOptions="CenterAndExpand"
+                    AbsoluteLayout.LayoutBounds="0.7, 0.1, 1, 170"
+                    AbsoluteLayout.LayoutFlags="PositionProportional,WidthProportional">
+                        <Label.FormattedText>
+                            <FormattedString>
+                                <FormattedString.Spans>
+                                    <Span Text="What type of coffee would you like to order?" FontAttributes="Bold" FontSize="30"/>
+                                </FormattedString.Spans>
+                            </FormattedString>
+                        </Label.FormattedText>
+             </Label>
 
-            <StackLayout Orientation="Vertical" Padding="10,135,10,10" Spacing="15">   
-                <Button Margin="10,60,10,0" Text="Regular" FontSize="30"
-                        Command="{Binding OpenWebCommand}"
-                        BackgroundColor="IndianRed"
-                        TextColor="White" />
-                <Button Margin="10,10,10,0" Text="Decaf" FontSize="30"
-                        Command="{Binding OpenWebCommand}"
-                        BackgroundColor="IndianRed"
-                        TextColor="White" />
-                <Button Margin="10,10,10,0" Text="Tea" FontSize="30"
-                        Command="{Binding OpenWebCommand}"
-                        BackgroundColor="IndianRed"
-                        TextColor="White" />
-            </StackLayout>
-       
-    </Grid>
+                <Button Text="Regular" FontSize="30"
+                    AbsoluteLayout.LayoutBounds="0.5, 0.3, 0.5, 0.1"
+                    AbsoluteLayout.LayoutFlags="PositionProportional,SizeProportional"
+                    FontAttributes="Bold"
+                    Clicked="_buttonClicked"
+                    BackgroundColor="IndianRed"
+                    TextColor="White" />
 
-    
-</ContentPage>
+                <Button Text="Decaf" FontSize="30"
+                    AbsoluteLayout.LayoutBounds="0.5, 0.5, 0.5, 0.1"
+                    AbsoluteLayout.LayoutFlags="PositionProportional,SizeProportional"
+                    FontAttributes="Bold"
+                    Clicked="_buttonClicked"
+                    BackgroundColor="IndianRed"
+                    TextColor="White" />
 
- 
+                <Button Text="Tea" FontSize="30"
+                    AbsoluteLayout.LayoutBounds="0.5, 0.7, 0.5, 0.1"
+                    AbsoluteLayout.LayoutFlags="PositionProportional,SizeProportional"
+                    FontAttributes="Bold"
+                    Clicked="_buttonClicked"
+                    BackgroundColor="IndianRed"
+                    TextColor="White" />
+   </AbsoluteLayout>
+
+</ContentPage> 

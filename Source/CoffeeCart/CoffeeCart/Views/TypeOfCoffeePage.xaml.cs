@@ -10,7 +10,11 @@ namespace CoffeeCart.Views
         public TypeOfCoffeePage()
         {
             InitializeComponent();
-           
+            this.Title = "Type Of Coffee";
+        }
+        private async void _buttonClicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new SizePage());
         }
     }
 }

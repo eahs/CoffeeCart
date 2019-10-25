@@ -15,15 +15,13 @@
                         </Label.FormattedText>
              </Label>
 
-            <Button Text="Order" FontSize="40"
+                <Button Text="Order" FontSize="40"
                     AbsoluteLayout.LayoutBounds="0.5, 0.7, 0.5, 0.1"
                     AbsoluteLayout.LayoutFlags="PositionProportional,SizeProportional"
                     FontAttributes="Bold"
                     Clicked="_button_Clicked"
                     BackgroundColor="IndianRed"
-                    TextColor="White"
-                    />
+                    TextColor="White" />
     </AbsoluteLayout>
-
 
 </ContentPage> 
