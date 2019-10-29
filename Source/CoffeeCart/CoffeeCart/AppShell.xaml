@@ -33,12 +33,15 @@
     <TabBar>
         
 
-       
+        
         <Tab Title="Home" Icon="tab_about.png">
             <ShellContent ContentTemplate="{DataTemplate local:HomePage}" />
         </Tab>
         <Tab Title="Coffee Types" Icon="tab_feed.png">
             <ShellContent ContentTemplate="{DataTemplate local:TypeOfCoffeePage}" />
+        </Tab>
+        <Tab Title="Size" Icon="tab_about.png">
+            <ShellContent ContentTemplate="{DataTemplate local:SizePage}" />
         </Tab>
         <Tab Title="Creamer" Icon="tab_feed.png">
             <ShellContent ContentTemplate="{DataTemplate local:PickCreamerPage}" />
@@ -51,9 +54,6 @@
         </Tab>
           <Tab Title="Confirmation" Icon="tab_about.png">
             <ShellContent ContentTemplate="{DataTemplate local:EndPage}" />
-        </Tab>
-         <Tab Title="About" Icon="tab_about.png">
-            <ShellContent ContentTemplate="{DataTemplate local:AboutPage}" />
         </Tab>
     </TabBar>
 

@@ -17,4 +17,6 @@ namespace CoffeeCart.Views
             await Navigation.PushAsync(new SizePage());
         }
     }
+    
+    
 }
