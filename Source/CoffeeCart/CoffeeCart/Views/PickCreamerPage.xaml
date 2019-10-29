@@ -1,73 +1,70 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="CoffeeCart.Views.PickCreamerPage">
-    <ContentPage.Content>
-         <Label Text="What type of coffee would you like to order?" HorizontalOptions="CenterAndExpand" VerticalOptions="StartAndExpand"/>
-    </ContentPage.Content>
+       <AbsoluteLayout>
 
-    <Grid>
-        <Grid.RowDefinitions>
-            <RowDefinition Height="Auto" />
-            <RowDefinition Height="*" />
-        </Grid.RowDefinitions>
-       
-
-        
-            <StackLayout Orientation="Vertical" Padding="20,50,20,10" Spacing="10">
-                <Label FontSize="22">
+                <Label 
+                    HorizontalOptions="CenterAndExpand"
+                    AbsoluteLayout.LayoutBounds= "-0.25, 0.08, .8, 70"
+                    AbsoluteLayout.LayoutFlags= "PositionProportional,WidthProportional">
                     <Label.FormattedText>
-                        <FormattedString>
-                            <FormattedString.Spans>
+                            <FormattedString>
+                                <FormattedString.Spans>
                                 <Span Text="Creamer Cups" FontAttributes="Bold" FontSize="35" />
                             </FormattedString.Spans>
                         </FormattedString>
                     </Label.FormattedText>
-                </Label>
-                </StackLayout>
-            <StackLayout Orientation="Vertical" Padding="20,95,20,10" Spacing="10">
-                <Label FontSize="22">
-                    <Label.FormattedText>
-                        <FormattedString>
-                            <FormattedString.Spans>
-                                <Span Text="Input the amount of creamer cups" FontSize="14" />
-                            </FormattedString.Spans>
-                        </FormattedString>
-                    </Label.FormattedText>
-                </Label>
-                </StackLayout>
-            <StackLayout Orientation="Vertical" Padding = "20,155,20,10" Spacing="10">
-                <Label FontSize="12">
-                    <Label.FormattedText>
-                        <FormattedString>
-                            <FormattedString.Spans>
-                                <Span Text="Half and Half:" FontSize="20"/>
-                            </FormattedString.Spans>
-                        </FormattedString>
-                    </Label.FormattedText>
-                </Label>
-                </StackLayout>
-                <Entry Placeholder="Enter" Margin="20,190,210,450"/>
-            <StackLayout Orientation="Vertical" Padding = "20,265,20,20" Spacing="10">
-                <Label FontSize="12">
-                    <Label.FormattedText>
-                        <FormattedString>
-                            <FormattedString.Spans>
-                                <Span Text="French Vanilla:" FontSize="20"/>
-                            </FormattedString.Spans>
-                        </FormattedString>
-                    </Label.FormattedText>
-                </Label>
-                </StackLayout>
-                <Entry Placeholder="Enter" Margin="20,295,210,350"/>
-
-            <StackLayout Orientation="Vertical" Padding="10,135,10,10" Spacing="15">   
-              
-                <Button Margin="125,300,125,0" Text="Enter" FontSize="30"
-                        Command="{Binding OpenWebCommand}"
-                        BackgroundColor="IndianRed"
-                        TextColor="White" />
-            </StackLayout>
-        
+                    </Label>
        
-    </Grid>
+                <Label 
+                    HorizontalOptions="CenterAndExpand"
+                    AbsoluteLayout.LayoutBounds= "0.4, 0.18, .8, 70"
+                    AbsoluteLayout.LayoutFlags= "PositionProportional,WidthProportional">
+                    <Label.FormattedText>
+                            <FormattedString>
+                                <FormattedString.Spans>
+                                <Span Text="Input the amount of creamer cups" FontAttributes="Bold" FontSize="24" />
+                            </FormattedString.Spans>
+                        </FormattedString>
+                    </Label.FormattedText>
+                    </Label> 
+
+                <Label 
+                    HorizontalOptions="CenterAndExpand"
+                    AbsoluteLayout.LayoutBounds= "-.7, 0.35, .79, 70"
+                    AbsoluteLayout.LayoutFlags= "PositionProportional,WidthProportional">
+                    <Label.FormattedText>
+                            <FormattedString>
+                                <FormattedString.Spans>
+                                <Span Text="Half and Half:" FontAttributes="Bold" FontSize="22" />
+                            </FormattedString.Spans>
+                        </FormattedString>
+                    </Label.FormattedText>
+                    </Label>
+                <Entry Placeholder="Enter" Margin="34,290,210,450"/>
+
+                <Label 
+                    HorizontalOptions="CenterAndExpand"
+                    AbsoluteLayout.LayoutBounds= "-0.7, 0.5, .8, 70"
+                    AbsoluteLayout.LayoutFlags= "PositionProportional,WidthProportional">
+                    <Label.FormattedText>
+                            <FormattedString>
+                                <FormattedString.Spans>
+                                <Span Text="French Vanilla:" FontAttributes="Bold" FontSize="22" />
+                            </FormattedString.Spans>
+                        </FormattedString>
+                    </Label.FormattedText>
+                    </Label>
+                <Entry Placeholder="Enter" Margin="34,397,210,350"/>
+
+                <Button Text="Enter"
+                        FontSize="30"
+                        AbsoluteLayout.LayoutBounds="0.5, 0.7, 0.5, 0.1"
+                        AbsoluteLayout.LayoutFlags="PositionProportional,SizeProportional"
+                        BackgroundColor="IndianRed"
+                        Clicked="__button__Clicked"
+                        TextColor="White" />
+    
+       
+ </AbsoluteLayout>
 
 </ContentPage>

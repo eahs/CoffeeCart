@@ -10,6 +10,14 @@ namespace CoffeeCart.Views
         public SugarPage()
         {
             InitializeComponent();
+            this.Title = "Sugar";
+
         }
+
+        private async void __buttonClicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new EndPage());
+        }
+
     }
 }

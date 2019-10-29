@@ -10,6 +10,14 @@ namespace CoffeeCart.Views
         public EndPage()
         {
             InitializeComponent();
+            this.Title = "Submit";
+
         }
+
+        private async void _buttonClick(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new HomePage());
+        }
+
     }
 }

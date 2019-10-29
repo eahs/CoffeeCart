@@ -1,69 +1,69 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="CoffeeCart.Views.SugarPage">
-    <ContentPage.Content>
-        <Label Text="Amount of Sugar" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" />
-    </ContentPage.Content>
-     <Grid>
-        <Grid.RowDefinitions>
-            <RowDefinition Height="Auto" />
-            <RowDefinition Height="*" />
-        </Grid.RowDefinitions>
-
-
-         <StackLayout Orientation="Vertical" Padding = "20,50,10,10" Spacing="10">
-         <Label FontSize="22">
+       <AbsoluteLayout>
+          
+                <Label FontSize="22"
+                    HorizontalOptions="CenterAndExpand"
+                    AbsoluteLayout.LayoutBounds= "-1.07, 0.08, .8, 70"
+                    AbsoluteLayout.LayoutFlags= "PositionProportional,WidthProportional">
                     <Label.FormattedText>
-                        <FormattedString>
-                            <FormattedString.Spans>
-                                <Span Text="Sugar" FontAttributes="Bold" FontSize="35"/>
+                            <FormattedString>
+                                <FormattedString.Spans>
+                                <Span Text="Sugar" FontAttributes="Bold" FontSize="35" />
+                            </FormattedString.Spans> 
+                        </FormattedString>
+                    </Label.FormattedText>
+                    </Label>
+      
+                <Label 
+                    HorizontalOptions="CenterAndExpand"
+                    AbsoluteLayout.LayoutBounds= "0.1, 0.18, .8, 70"
+                    AbsoluteLayout.LayoutFlags= "PositionProportional,WidthProportional">
+                    <Label.FormattedText>
+                            <FormattedString>
+                                <FormattedString.Spans>
+                                <Span Text="Input the amount of sugar" FontAttributes="Bold" FontSize="24" />
                             </FormattedString.Spans>
                         </FormattedString>
                     </Label.FormattedText>
-                </Label>
-         </StackLayout>
-         
-         <StackLayout Orientation="Vertical" Padding = "20,95,20,10" Spacing="10">
-         <Label FontSize="12">
+                    </Label>
+
+                <Label 
+                    HorizontalOptions="CenterAndExpand"
+                    AbsoluteLayout.LayoutBounds= "-1.15, 0.3, .79, 70"
+                    AbsoluteLayout.LayoutFlags= "PositionProportional,WidthProportional">
                     <Label.FormattedText>
-                        <FormattedString>
-                            <FormattedString.Spans>
-                                <Span Text="Input the amount of sugar" FontSize="14"/>
+                            <FormattedString>
+                                <FormattedString.Spans>
+                                <Span Text="Sugar:" FontAttributes="Bold" FontSize="22" />
                             </FormattedString.Spans>
                         </FormattedString>
                     </Label.FormattedText>
-                </Label>
-         </StackLayout>
+                    </Label>
+                <Entry Placeholder="Enter" Margin="33,255,210,450"/>
 
-         <StackLayout Orientation="Vertical" Padding = "20,155,20,10" Spacing="10">
-         <Label FontSize="12">
+                <Label 
+                    HorizontalOptions="CenterAndExpand"
+                    AbsoluteLayout.LayoutBounds= "-1., 0.48, .79, 70"
+                    AbsoluteLayout.LayoutFlags= "PositionProportional,WidthProportional">
                     <Label.FormattedText>
-                        <FormattedString>
-                            <FormattedString.Spans>
-                                <Span Text="Sugar:" FontSize="20"/>
+                            <FormattedString>
+                                <FormattedString.Spans>
+                                <Span Text="Splenda:" FontAttributes="Bold" FontSize="22" />
                             </FormattedString.Spans>
                         </FormattedString>
                     </Label.FormattedText>
-                </Label>
-         </StackLayout>
-         <Entry Placeholder="Enter:" Margin="20,190,210,120"/>
+                    </Label>
+                <Entry Placeholder="Enter" Margin="34,390,210,450"/>
 
-         <StackLayout Orientation="Vertical" Padding = "20,265,20,20" Spacing="10">
-         <Label FontSize="12">
-                    <Label.FormattedText>
-                        <FormattedString>
-                            <FormattedString.Spans>
-                                <Span Text="Splenda:" FontSize="20"/>
-                            </FormattedString.Spans>
-                        </FormattedString>
-                    </Label.FormattedText>
-                </Label>
-         </StackLayout>
-         <Entry Placeholder="Enter:" Margin="20,295,210,20"/>
+           
+                <Button Text="Enter" FontSize="30"
+                        AbsoluteLayout.LayoutBounds="0.5, 0.7, 0.5, 0.1"
+                        AbsoluteLayout.LayoutFlags="PositionProportional,SizeProportional"
+                        BackgroundColor="IndianRed"
+                        Clicked="__buttonClicked"
+                        TextColor="White" />
+       
+ </AbsoluteLayout>
 
-
-
-
-
-
-         </Grid>
 </ContentPage>
