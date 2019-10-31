@@ -57,7 +57,7 @@
                 <Entry Placeholder="Enter" Margin="34,390,210,450"/>
 
            
-                <Button Text="Enter" FontSize="30"
+                <Button Text="Submit" FontSize="30"
                         AbsoluteLayout.LayoutBounds="0.5, 0.7, 0.5, 0.1"
                         AbsoluteLayout.LayoutFlags="PositionProportional,SizeProportional"
                         BackgroundColor="IndianRed"
