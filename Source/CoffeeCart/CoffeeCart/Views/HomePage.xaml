@@ -1,9 +1,8 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="CoffeeCart.Views.HomePage">
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="CoffeeCart.Views.HomePage" BackgroundColor = "LightGray">
 
     <AbsoluteLayout>
-             <Label FontSize="22"
-                    HorizontalOptions="CenterAndExpand"
+             <Label HorizontalOptions="CenterAndExpand"
                     AbsoluteLayout.LayoutBounds="0.5, 0.1, 1, 70"
                     AbsoluteLayout.LayoutFlags="PositionProportional,WidthProportional">
                         <Label.FormattedText>
@@ -16,7 +15,7 @@
              </Label>
 
                 <Button Text="Order" FontSize="40"
-                    AbsoluteLayout.LayoutBounds="0.5, 0.7, 0.5, 0.1"
+                    AbsoluteLayout.LayoutBounds="0.5, 0.8, 0.5, 0.1"
                     AbsoluteLayout.LayoutFlags="PositionProportional,SizeProportional"
                     FontAttributes="Bold"
                     Clicked="_button_Clicked"

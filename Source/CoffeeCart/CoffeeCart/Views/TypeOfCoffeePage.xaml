@@ -1,14 +1,14 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="CoffeeCart.Views.TypeOfCoffeePage">
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="CoffeeCart.Views.TypeOfCoffeePage" BackgroundColor="LightGray">
 
     <AbsoluteLayout>
              <Label HorizontalOptions="CenterAndExpand"
-                    AbsoluteLayout.LayoutBounds="0.7, 0.1, 1, 170"
+                    AbsoluteLayout.LayoutBounds=".6, 0.05, .89, 170"
                     AbsoluteLayout.LayoutFlags="PositionProportional,WidthProportional">
                         <Label.FormattedText>
                             <FormattedString>
                                 <FormattedString.Spans>
-                                    <Span Text="What type of coffee would you like to order?" FontAttributes="Bold" FontSize="30"/>
+                                    <Span Text="What type of coffee or drink would you like to order?" FontAttributes="Bold" FontSize="35"/>
                                 </FormattedString.Spans>
                             </FormattedString>
                         </Label.FormattedText>

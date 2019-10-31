@@ -1,22 +1,22 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="CoffeeCart.Views.EndPage">
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="CoffeeCart.Views.EndPage" BackgroundColor="LightGray">
 
     <AbsoluteLayout>
-             <Label FontSize="22"
+             <Label    
                     HorizontalOptions="CenterAndExpand"
-                    AbsoluteLayout.LayoutBounds="0.5, 0.3, 1, 70"
+                    AbsoluteLayout.LayoutBounds="1, 0.1, .9, 300"
                     AbsoluteLayout.LayoutFlags="PositionProportional,WidthProportional">
                         <Label.FormattedText>
                             <FormattedString>
                                 <FormattedString.Spans>
-                                    <Span Text="Your Order Has Been Submitted!" FontAttributes="Bold" FontSize="20"/>
+                                    <Span Text="Your Order Has Been Submitted!" FontAttributes="Bold" FontSize="42"/>
                                 </FormattedString.Spans>
                             </FormattedString>
                         </Label.FormattedText>
              </Label>
 
-                <Button Text="Main Menu" FontSize="40"
-                    AbsoluteLayout.LayoutBounds="0.5, 0.7, 0.5, 0.1"
+                <Button Text="Back To Menu" FontSize="28"
+                    AbsoluteLayout.LayoutBounds="0.5, 0.8, 0.5, 0.1"
                     AbsoluteLayout.LayoutFlags="PositionProportional,SizeProportional"
                     FontAttributes="Bold"
                     Clicked="_buttonClick"

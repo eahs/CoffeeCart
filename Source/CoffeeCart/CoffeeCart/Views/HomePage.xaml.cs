@@ -11,7 +11,7 @@ namespace CoffeeCart.Views
         public HomePage()
         {
             InitializeComponent();
-            this.Title = "Home";
+            this.Title = "Home" ;
         }
 
         private async void _button_Clicked(object sender, EventArgs e)
