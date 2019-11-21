@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="CoffeeCart.Views.FoodPage" BackgroundColor="LightGray">
+       <AbsoluteLayout>
+          
+                <Label FontSize="22"
+                    HorizontalOptions="CenterAndExpand"
+                    AbsoluteLayout.LayoutBounds= "-1.07, 0.08, .8, 70"
+                    AbsoluteLayout.LayoutFlags= "PositionProportional,WidthProportional">
+                    <Label.FormattedText>
+                            <FormattedString>
+                                <FormattedString.Spans>
+                                <Span Text="Food" FontAttributes="Bold" FontSize="35" />
+                            </FormattedString.Spans> 
+                        </FormattedString>
+                    </Label.FormattedText>
+                    </Label>
+      
+                <Label 
+                    HorizontalOptions="CenterAndExpand"
+                    AbsoluteLayout.LayoutBounds= "0.25, 0.18, .8, 70"
+                    AbsoluteLayout.LayoutFlags= "PositionProportional,WidthProportional">
+                    <Label.FormattedText>
+                            <FormattedString>
+                                <FormattedString.Spans>
+                                <Span Text="Input the amount of burritos" FontAttributes="Bold" FontSize="24" />
+                            </FormattedString.Spans>
+                        </FormattedString>
+                    </Label.FormattedText>
+                    </Label>
+
+                <Label 
+                    HorizontalOptions="CenterAndExpand"
+                    AbsoluteLayout.LayoutBounds= "-.75, 0.3, .79, 70"
+                    AbsoluteLayout.LayoutFlags= "PositionProportional,WidthProportional">
+                    <Label.FormattedText>
+                            <FormattedString>
+                                <FormattedString.Spans>
+                                <Span Text="Egg Burritos:" FontAttributes="Bold" FontSize="22" />
+                            </FormattedString.Spans>
+                        </FormattedString>
+                    </Label.FormattedText>
+                    </Label>
+
+                <Entry Placeholder="Enter" Text="0" Keyboard="Numeric" Margin="33,255,210,450"/>
+
+                <Label 
+                    HorizontalOptions="CenterAndExpand"
+                    AbsoluteLayout.LayoutBounds= ".4, 0.45, .79, 70"
+                    AbsoluteLayout.LayoutFlags= "PositionProportional,WidthProportional">
+                    <Label.FormattedText>
+                            <FormattedString>
+                                <FormattedString.Spans>
+                                <Span Text="Breakfast burritos (eggs, cheese, bacon, and peppers):" FontAttributes="Bold" FontSize="22" />
+                            </FormattedString.Spans>
+                        </FormattedString>
+                    </Label.FormattedText>
+                    </Label>
+
+                <Entry Placeholder="Enter" Text="0" Keyboard="Numeric" Margin="34,390,210,450"/>
+
+           
+                <Button Text="Submit" FontSize="30"
+                        AbsoluteLayout.LayoutBounds="0.5, 0.7, 0.5, 0.1"
+                        AbsoluteLayout.LayoutFlags="PositionProportional,SizeProportional"
+                        BackgroundColor="IndianRed"
+                        FontAttributes="Bold"
+                        Clicked="__buttonClicked"
+                        TextColor="White" />
+       
+ </AbsoluteLayout>
+
+</ContentPage>

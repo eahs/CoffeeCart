@@ -37,4 +37,7 @@
       <DependentUpon>PickCreamerPage.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Views\New Folder\" />
+  </ItemGroup>
 </Project>

@@ -5,18 +5,19 @@ using Xamarin.Forms;
 
 namespace CoffeeCart.Views
 {
-    public partial class SugarPage : ContentPage
+    public partial class FoodPage : ContentPage
     {
-        public SugarPage()
+        public FoodPage()
+
         {
             InitializeComponent();
-            this.Title = "Sugar";
+            this.Title = "Food";
 
         }
 
         private async void __buttonClicked(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new FoodPage());
+            await Navigation.PushAsync(new EndPage());
         }
 
     }
