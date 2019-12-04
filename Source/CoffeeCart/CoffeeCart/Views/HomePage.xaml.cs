@@ -18,6 +18,10 @@ namespace CoffeeCart.Views
         {
             await Navigation.PushAsync(new TypeOfCoffeePage());
         }
+        private async void AboutButton(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new AboutPage());
+        }
     }
 
 

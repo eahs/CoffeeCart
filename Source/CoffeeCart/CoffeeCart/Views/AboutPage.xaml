@@ -1,81 +1,35 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
-             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-             mc:Ignorable="d"
-             x:Class="CoffeeCart.Views.AboutPage"
-             xmlns:vm="clr-namespace:CoffeeCart.ViewModels"
-             Title="{Binding Title}">
-    
-    <ContentPage.BindingContext>
-        <vm:AboutViewModel />
-    </ContentPage.BindingContext>
-    
-    <ContentPage.Resources>
-        <ResourceDictionary>
-            <Color x:Key="Primary">#2196F3</Color>
-            <Color x:Key="Accent">#96d1ff</Color>
-            <Color x:Key="LightTextColor">#999999</Color>
-        </ResourceDictionary>
-    </ContentPage.Resources>
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="CoffeeCart.Views.AboutPage" BackgroundColor="LightGray">
 
-    <Grid>
-        <Grid.RowDefinitions>
-            <RowDefinition Height="Auto" />
-            <RowDefinition Height="*" />
-        </Grid.RowDefinitions>
-        <StackLayout BackgroundColor="{StaticResource Accent}" VerticalOptions="FillAndExpand" HorizontalOptions="Fill">
-            <StackLayout Orientation="Horizontal" HorizontalOptions="Center" VerticalOptions="Center">
-                <ContentView Padding="0,40,0,40" VerticalOptions="FillAndExpand">
-                    <Image Source="xamarin_logo.png" VerticalOptions="Center" HeightRequest="64" />
-                </ContentView>
-            </StackLayout>
-        </StackLayout>
-        <ScrollView Grid.Row="1">
-            <StackLayout Orientation="Vertical" Padding="16,40,16,40" Spacing="10">
-                <Label FontSize="22">
-                    <Label.FormattedText>
-                        <FormattedString>
-                            <FormattedString.Spans>
-                                <Span Text="AppName" FontAttributes="Bold" FontSize="22" />
-                                <Span Text=" " />
-                                <Span Text="1.0" ForegroundColor="{StaticResource LightTextColor}" />
-                            </FormattedString.Spans>
-                        </FormattedString>
-                    </Label.FormattedText>
-                </Label>
-                <Label>
-                    <Label.FormattedText>
-                        <FormattedString>
-                            <FormattedString.Spans>
-                                <Span Text="This app is written in C# and native APIs using the" />
-                                <Span Text=" " />
-                                <Span Text="Xamarin Platform" FontAttributes="Bold" />
-                                <Span Text="." />
-                            </FormattedString.Spans>
-                        </FormattedString>
-                    </Label.FormattedText>
-                </Label>
-                <Label>
-                    <Label.FormattedText>
-                        <FormattedString>
-                            <FormattedString.Spans>
-                                <Span Text="It shares code with its" />
-                                <Span Text=" " />
-                                <Span Text="iOS, Android, and Windows" FontAttributes="Bold" />
-                                <Span Text=" " />
-                                <Span Text="versions." />
-                            </FormattedString.Spans>
-                        </FormattedString>
-                    </Label.FormattedText>
-                </Label>
-                <Button Margin="0,10,0,0" Text="Learn more"
-                        Command="{Binding OpenWebCommand}"
-                        BackgroundColor="{StaticResource Primary}"
-                        TextColor="White" />
-            </StackLayout>
-        </ScrollView>
-    </Grid>
-    
-</ContentPage>
+    <AbsoluteLayout>
+             <Label 
+                    HorizontalOptions="CenterAndExpand"
+                    AbsoluteLayout.LayoutBounds="0.5, 0.1, 1, 70"
+                    AbsoluteLayout.LayoutFlags="PositionProportional,WidthProportional">
+                        <Label.FormattedText>
+                            <FormattedString>
+                                <FormattedString.Spans>
+                                    <Span Text="About" FontAttributes="Bold" FontSize="42"/>
+                                </FormattedString.Spans>
+                            </FormattedString>
+                        </Label.FormattedText>
+             </Label>
+
+            <Label 
+                    HorizontalOptions="CenterAndExpand"
+                    AbsoluteLayout.LayoutBounds="0.5, 0.5, .8, 305"
+                    AbsoluteLayout.LayoutFlags="PositionProportional,WidthProportional">
+                        <Label.FormattedText>
+                            <FormattedString>
+                                <FormattedString.Spans>
+                                    <Span Text="The Rolling Rovers Coffee Cart is a coffee delivering
+                                          serivce provided to teachers by Special Ed students seeking to acquire job skills."
+                                          FontAttributes="Bold" FontSize="32"/>
+                                </FormattedString.Spans>
+                            </FormattedString>
+                        </Label.FormattedText>
+             </Label>
+                
+    </AbsoluteLayout>
+
+</ContentPage> 
