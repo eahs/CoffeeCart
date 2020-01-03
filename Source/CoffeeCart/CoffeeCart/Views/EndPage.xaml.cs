@@ -15,7 +15,8 @@ namespace CoffeeCart.Views
 
         private async void _buttonClick(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new TypeOfCoffeePage());
+            await Navigation.PopToRootAsync();
+            await Navigation.PushAsync(new LoginPage());
         }
 
     }

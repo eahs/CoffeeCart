@@ -5,7 +5,6 @@ using Xamarin.Forms;
 
 namespace CoffeeCart.Views
 {
-  
     public partial class HomePage : ContentPage
     { 
         public HomePage()
@@ -16,7 +15,7 @@ namespace CoffeeCart.Views
 
         private async void _button_Clicked(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new TypeOfCoffeePage());
+            await Navigation.PushAsync(new LoginPage());
         }
         private async void AboutButton(object sender, EventArgs e)
         {

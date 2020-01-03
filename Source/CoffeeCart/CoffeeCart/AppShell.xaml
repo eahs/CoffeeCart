@@ -32,29 +32,38 @@
     <!-- Your Pages -->
     <TabBar>
         
-
+        <Tab Title="Login" Icon="tab_about.png">
+            <ShellContent ContentTemplate="{DataTemplate local:LoginPage}" />
+        </Tab>
         
         <Tab Title="Home" Icon="tab_about.png">
             <ShellContent ContentTemplate="{DataTemplate local:HomePage}" />
         </Tab>
+
         <Tab Title="Coffee Types" Icon="tab_feed.png">
             <ShellContent ContentTemplate="{DataTemplate local:TypeOfCoffeePage}" />
         </Tab>
+
         <Tab Title="Size" Icon="tab_about.png">
             <ShellContent ContentTemplate="{DataTemplate local:SizePage}" />
         </Tab>
+
         <Tab Title="Creamer" Icon="tab_feed.png">
             <ShellContent ContentTemplate="{DataTemplate local:PickCreamerPage}" />
         </Tab>
+
         <Tab Title="Sugar" Icon="tab_about.png">
             <ShellContent ContentTemplate="{DataTemplate local:SugarPage}" />
         </Tab>
+
         <Tab Title="Size of Coffee" Icon="tab_feed.png">
             <ShellContent ContentTemplate="{DataTemplate local:SizePage }" />
         </Tab>
+
           <Tab Title="Confirmation" Icon="tab_about.png">
             <ShellContent ContentTemplate="{DataTemplate local:EndPage}" />
         </Tab>
+
     </TabBar>
 
     <!-- Optional Templates 
