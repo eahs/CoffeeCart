@@ -23,7 +23,7 @@
                             <FormattedString>
                                 <FormattedString.Spans>
                                     <Span Text="The Rolling Rovers Coffee Cart is a coffee delivering
-                                          serivce provided to teachers by Special Ed students seeking to acquire job skills."
+                                          service provided to teachers by Special Ed students seeking to acquire job skills."
                                           FontAttributes="Bold" FontSize="32"/>
                                 </FormattedString.Spans>
                             </FormattedString>
