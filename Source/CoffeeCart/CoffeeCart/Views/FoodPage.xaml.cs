@@ -17,7 +17,7 @@ namespace CoffeeCart.Views
 
         private async void __buttonClicked(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new EndPage());
+            await Navigation.PushAsync(new ReviewPage());
         }
 
     }
