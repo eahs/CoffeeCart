@@ -122,6 +122,8 @@
     <BundleResource Include="Resources\coffee logo.png" />
     <BundleResource Include="Resources\extra logo.kra" />
     <BundleResource Include="Resources\extra logo.png" />
+    <BundleResource Include="Resources\loading.png" />
+    <BundleResource Include="Resources\Intro screen.png" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />

@@ -40,4 +40,9 @@
   <ItemGroup>
     <Folder Include="Views\New Folder\" />
   </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Update="Views\LoginPage.xaml">
+      <IncludeInPackage>false</IncludeInPackage>
+    </EmbeddedResource>
+  </ItemGroup>
 </Project>
