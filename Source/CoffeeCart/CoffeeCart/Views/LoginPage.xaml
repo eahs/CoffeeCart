@@ -54,7 +54,7 @@
                         </FormattedString>
                     </Label.FormattedText>
                     </Label>
-                <Entry IsPassword="True" Placeholder="Enter" Margin="34,390,210,450"/>
+                <Entry IsPassword="True" Placeholder="Enter" Margin="34,390,410,450"/>
 
            
                 <Button Text="Login" FontSize="30"
