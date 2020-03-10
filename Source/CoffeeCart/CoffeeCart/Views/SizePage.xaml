@@ -17,7 +17,7 @@
                 <Button Text="Large" FontSize="30"
                     AbsoluteLayout.LayoutBounds="0.5, 0.3, 0.5, 0.1"
                     AbsoluteLayout.LayoutFlags="PositionProportional,SizeProportional"
-                    FontAttributes="Bold"
+                    FontAttributes="Bold" 
                     Clicked="_button__Clicked"
                     BackgroundColor="IndianRed"
                     TextColor="White" />
@@ -59,7 +59,7 @@
                 <Button Text="Small" FontSize="30"
                     AbsoluteLayout.LayoutBounds="0.5, 0.7, 0.5, 0.1"
                     AbsoluteLayout.LayoutFlags="PositionProportional,SizeProportional"
-                    FontAttributes="Bold"
+                    FontAttributes="Bold" 
                     Clicked="_button__Clicked"
                     BackgroundColor="IndianRed"
                     TextColor="White" />

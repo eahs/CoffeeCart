@@ -16,13 +16,14 @@ namespace CoffeeCart.Views
         private async void _buttonClicked(object sender, EventArgs e)
         {
             await Navigation.PushAsync(new SizePage());
-            string s = (sender as Button).ContentLayout.ToString();
+            
 
         }
 
-        public void ItemSelected(object sender, SelectedItemChangedEventArgs e)
+        public async void ItemSelected(object sender, SelectedItemChangedEventArgs e)
         {
             // ProductsListView.SelectedItem
+            await Navigation.PushAsync(new SizePage());
         }
     }
     
