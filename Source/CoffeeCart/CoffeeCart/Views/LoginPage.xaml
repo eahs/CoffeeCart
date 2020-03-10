@@ -2,19 +2,34 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="CoffeeCart.Views.LoginPage" BackgroundColor="LightGray">
        <AbsoluteLayout>
           
-                <Label FontSize="22"
+                <!--<Label FontSize="30"
                     HorizontalOptions="CenterAndExpand"
-                    AbsoluteLayout.LayoutBounds= "-1.07, 0.08, .8, 70"
+                    AbsoluteLayout.LayoutBounds= "-0.6, 0.08, .8, 70"
                     AbsoluteLayout.LayoutFlags= "PositionProportional,WidthProportional">
                     <Label.FormattedText>
                             <FormattedString>
                                 <FormattedString.Spans>
-                                <Span Text="Login" FontAttributes="Bold" FontSize="35" />
+                                <Span Text="Login as:" FontAttributes="Bold" FontSize="35" />
+                            </FormattedString.Spans> 
+                        </FormattedString>
+                    </Label.FormattedText>
+                    </Label> -->
+
+            <Label FontSize="30"
+                    HorizontalOptions="CenterAndExpand"
+                    AbsoluteLayout.LayoutBounds= "-1.15, 0.1, .8, 70"
+                    AbsoluteLayout.LayoutFlags= "PositionProportional,WidthProportional">
+                    <Label.FormattedText>
+                            <FormattedString>
+                                <FormattedString.Spans>
+                                <Span Text="User" FontAttributes="Bold" FontSize="35" />
                             </FormattedString.Spans> 
                         </FormattedString>
                     </Label.FormattedText>
                     </Label>
-      
+
+
+      <!--
                 <Label 
                     HorizontalOptions="CenterAndExpand"
                     AbsoluteLayout.LayoutBounds= "0.1, 0.18, .65, 70"
@@ -22,15 +37,16 @@
                     <Label.FormattedText>
                             <FormattedString>
                                 <FormattedString.Spans>
-                                <Span Text="Login with your email" FontAttributes="Bold" FontSize="24" />
+                                <Span Text="Login as: " FontAttributes="Bold" FontSize="24" />
                             </FormattedString.Spans>
                         </FormattedString>
                     </Label.FormattedText>
                     </Label>
+           -->
 
                 <Label 
                     HorizontalOptions="CenterAndExpand"
-                    AbsoluteLayout.LayoutBounds= "-1.15, 0.3, .79, 70"
+                    AbsoluteLayout.LayoutBounds= "-1.15, 0.2, .79, 70"
                     AbsoluteLayout.LayoutFlags= "PositionProportional,WidthProportional">
                     <Label.FormattedText>
                             <FormattedString>
@@ -40,11 +56,11 @@
                         </FormattedString>
                     </Label.FormattedText>
                     </Label>
-                <Entry Placeholder="Enter" Margin="33,255,210,450"/>
+                <Entry Placeholder="Enter" Margin="34,200,210,450" WidthRequest="300"/>
 
                 <Label 
                     HorizontalOptions="CenterAndExpand"
-                    AbsoluteLayout.LayoutBounds= "-1., 0.48, .8, 70"
+                    AbsoluteLayout.LayoutBounds= "-1, 0.38, .8, 70"
                     AbsoluteLayout.LayoutFlags= "PositionProportional,WidthProportional">
                     <Label.FormattedText>
                             <FormattedString>
@@ -54,11 +70,20 @@
                         </FormattedString>
                     </Label.FormattedText>
                     </Label>
-                <Entry IsPassword="True" Placeholder="Enter" Margin="34,390,410,450"/>
+                <Entry IsPassword="True" Placeholder="Enter" Margin="34,340,410,450" WidthRequest="300"/> 
 
-           
-                <Button Text="Login" FontSize="30"
-                        AbsoluteLayout.LayoutBounds="0.5, 0.7, 0.5, 0.1"
+                <Button Text="Enter" FontSize="30"
+                        AbsoluteLayout.LayoutBounds="0.5, 0.65, 0.5, 0.1"
+                        AbsoluteLayout.LayoutFlags="PositionProportional,SizeProportional"
+                        BackgroundColor="IndianRed"
+                        FontAttributes="Bold"
+                        Clicked="LoginButton"
+                        TextColor="White" /> 
+
+               
+
+                <Button Text="Guest" FontSize="30"
+                        AbsoluteLayout.LayoutBounds="0.5, 0.9, 0.5, 0.1"
                         AbsoluteLayout.LayoutFlags="PositionProportional,SizeProportional"
                         BackgroundColor="IndianRed"
                         FontAttributes="Bold"
