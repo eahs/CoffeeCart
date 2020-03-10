@@ -31,6 +31,8 @@
                     Clicked="AboutButton"
                     BackgroundColor="IndianRed"
                     TextColor="White"
+                    
+                    
                         />
     </AbsoluteLayout>
 
