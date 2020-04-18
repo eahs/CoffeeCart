@@ -18,7 +18,7 @@
                     AbsoluteLayout.LayoutBounds="0.5, 0.3, 0.5, 0.1"
                     AbsoluteLayout.LayoutFlags="PositionProportional,SizeProportional"
                     FontAttributes="Bold"
-                    Clicked="_buttonClicked"
+                    Clicked="_buttonClickedc"
                     BackgroundColor="IndianRed"
                     TextColor="White" />
 
@@ -26,7 +26,7 @@
                     AbsoluteLayout.LayoutBounds="0.5, 0.5, 0.5, 0.1"
                     AbsoluteLayout.LayoutFlags="PositionProportional,SizeProportional"
                     FontAttributes="Bold"
-                    Clicked="_buttonClicked"
+                    Clicked="_buttonClickedc"
                     BackgroundColor="IndianRed"
                     TextColor="White" />
 
@@ -34,9 +34,27 @@
                     AbsoluteLayout.LayoutBounds="0.5, 0.7, 0.5, 0.1"
                     AbsoluteLayout.LayoutFlags="PositionProportional,SizeProportional"
                     FontAttributes="Bold"
-                    Clicked="_buttonClicked"
+                    Clicked="_buttonClickedc"
                     BackgroundColor="IndianRed"
                     TextColor="White" />
-   </AbsoluteLayout>
+
+                <Button Text="Cappucino" FontSize="30"
+                    AbsoluteLayout.LayoutBounds="0.5, 0.7, 0.5, 0.1"
+                    AbsoluteLayout.LayoutFlags="PositionProportional,SizeProportional"
+                    FontAttributes="Bold"
+                    Clicked="_buttonClickedc"
+                    BackgroundColor="IndianRed"
+                    TextColor="White" />
+        
+                <Button Text="Espresso" FontSize="30"
+                    AbsoluteLayout.LayoutBounds="0.5, 0.7, 0.5, 0.1"
+                    AbsoluteLayout.LayoutFlags="PositionProportional,SizeProportional"
+                    FontAttributes="Bold"
+                    Clicked="_buttonClickedc"
+                    BackgroundColor="IndianRed"
+                    TextColor="White" />
+        
+                    
+    </AbsoluteLayout>
 
 </ContentPage> 

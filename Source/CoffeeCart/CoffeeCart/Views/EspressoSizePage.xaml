@@ -1,62 +1,62 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="CoffeeCart.Views.SizePage" BackgroundColor="LightGray">
-<!-- Didn't need to change the page here much, just did some navigation work to make way for the cappucinno/espresso page-->
+    <!-- Didn't need to change the page here much, just did some navigation work to make way for the cappucinno/espresso page-->
     <AbsoluteLayout>
-             <Label HorizontalOptions="CenterAndExpand"
+        <Label HorizontalOptions="CenterAndExpand"
                     AbsoluteLayout.LayoutBounds="1, 0.07, .9, 100"
                     AbsoluteLayout.LayoutFlags="PositionProportional,WidthProportional">
-                        <Label.FormattedText>
-                            <FormattedString>
-                                <FormattedString.Spans>
-                                    <Span Text="Now It's Time To Pick Your Size!" FontAttributes="Bold" FontSize="37"/>
-                                </FormattedString.Spans>
-                            </FormattedString>
-                        </Label.FormattedText>
-             </Label>
+            <Label.FormattedText>
+                <FormattedString>
+                    <FormattedString.Spans>
+                        <Span Text="Now It's Time To Pick Your Size!" FontAttributes="Bold" FontSize="37"/>
+                    </FormattedString.Spans>
+                </FormattedString>
+            </Label.FormattedText>
+        </Label>
 
-                <Button Text="Large" FontSize="30"
+        <Button Text="Large" FontSize="30"
                     AbsoluteLayout.LayoutBounds="0.5, 0.3, 0.5, 0.1"
                     AbsoluteLayout.LayoutFlags="PositionProportional,SizeProportional"
                     FontAttributes="Bold"
                     Clicked="_button__Clicked"
                     BackgroundColor="IndianRed"
                     TextColor="White" />
-                <Label 
+        <Label 
                     HorizontalOptions="CenterAndExpand"
                     AbsoluteLayout.LayoutBounds= "0.95, 0.38, .65, 70"
                     AbsoluteLayout.LayoutFlags= "PositionProportional,WidthProportional"
                     TextColor= "White">
-                    <Label.FormattedText>
-                            <FormattedString>
-                                <FormattedString.Spans>
-                                <Span Text="$1.75" FontAttributes="Bold" FontSize="18" />
-                            </FormattedString.Spans>
-                        </FormattedString>
-                    </Label.FormattedText>
-                    </Label>
+            <Label.FormattedText>
+                <FormattedString>
+                    <FormattedString.Spans>
+                        <Span Text="$1.75" FontAttributes="Bold" FontSize="18" />
+                    </FormattedString.Spans>
+                </FormattedString>
+            </Label.FormattedText>
+        </Label>
 
-                <Button Text="Medium" FontSize="30"
+        <Button Text="Medium" FontSize="30"
                     AbsoluteLayout.LayoutBounds="0.5, 0.5, 0.5, 0.1"
                     AbsoluteLayout.LayoutFlags="PositionProportional,SizeProportional"
                     FontAttributes="Bold"
                     Clicked="_button__Clicked"
                     BackgroundColor="IndianRed"
                     TextColor="White" />
-                <Label 
+        <Label 
                     HorizontalOptions="CenterAndExpand"
                     AbsoluteLayout.LayoutBounds= "0.95, 0.578, .65, 70"
                     AbsoluteLayout.LayoutFlags= "PositionProportional,WidthProportional"
                     TextColor= "White">
-                    <Label.FormattedText>
-                            <FormattedString>
-                                <FormattedString.Spans>
-                                <Span Text="$1.50" FontAttributes="Bold" FontSize="18" />
-                            </FormattedString.Spans>
-                        </FormattedString>
-                    </Label.FormattedText>
-                    </Label>
+            <Label.FormattedText>
+                <FormattedString>
+                    <FormattedString.Spans>
+                        <Span Text="$1.50" FontAttributes="Bold" FontSize="18" />
+                    </FormattedString.Spans>
+                </FormattedString>
+            </Label.FormattedText>
+        </Label>
 
-                <Button Text="Small" FontSize="30"
+        <Button Text="Small" FontSize="30"
                     AbsoluteLayout.LayoutBounds="0.5, 0.7, 0.5, 0.1"
                     AbsoluteLayout.LayoutFlags="PositionProportional,SizeProportional"
                     FontAttributes="Bold"
@@ -64,19 +64,19 @@
                     BackgroundColor="IndianRed"
                     TextColor="White" />
 
-                   <Label 
+        <Label 
                     HorizontalOptions="CenterAndExpand"
                     AbsoluteLayout.LayoutBounds= "0.95, 0.773, .65, 70"
                     AbsoluteLayout.LayoutFlags= "PositionProportional,WidthProportional"
                     TextColor= "White">
-                    <Label.FormattedText>
-                            <FormattedString>
-                                <FormattedString.Spans>
-                                <Span Text="$1.25" FontAttributes="Bold" FontSize="18" />
-                            </FormattedString.Spans>
-                        </FormattedString>
-                    </Label.FormattedText>
-                    </Label>
-   </AbsoluteLayout>
+            <Label.FormattedText>
+                <FormattedString>
+                    <FormattedString.Spans>
+                        <Span Text="$1.25" FontAttributes="Bold" FontSize="18" />
+                    </FormattedString.Spans>
+                </FormattedString>
+            </Label.FormattedText>
+        </Label>
+    </AbsoluteLayout>
 
 </ContentPage> 

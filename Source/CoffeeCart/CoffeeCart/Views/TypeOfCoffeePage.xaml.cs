@@ -12,9 +12,13 @@ namespace CoffeeCart.Views
             InitializeComponent();
             this.Title = "Type Of Coffee";
         }
-        private async void _buttonClicked(object sender, EventArgs e)
+        private async void _buttonClickedc(object sender, EventArgs e)
         {
             await Navigation.PushAsync(new SizePage());
+        }
+        private async void _buttonClickedb(object sender, EventArgs e)   
+        {
+            await Navigation.PushAsync(new (EspressoSizePage));
         }
     }
     

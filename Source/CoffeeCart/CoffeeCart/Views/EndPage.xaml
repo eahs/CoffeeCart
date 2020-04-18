@@ -18,7 +18,7 @@
                        AbsoluteLayout.LayoutBounds=".5, 0.4, 2, 600 "
                        AbsoluteLayout.LayoutFlags="PositionProportional,WidthProportional"
                       />
-                <Button Text="Back To Menu" FontSize="28"
+                <Button Text="Menu" FontSize="28"
                     AbsoluteLayout.LayoutBounds="0.5, 0.8, 0.5, 0.1"
                     AbsoluteLayout.LayoutFlags="PositionProportional,SizeProportional"
                     FontAttributes="Bold"
