@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="CoffeeCart.Views.QuantityPage">
+    <ContentPage.Content>
+
+<AbsoluteLayout>
+             <Label HorizontalOptions="CenterAndExpand"
+                    AbsoluteLayout.LayoutBounds="1, 0.07, .9, 100"
+                    AbsoluteLayout.LayoutFlags="PositionProportional,WidthProportional">
+                        <Label.FormattedText>
+                            <FormattedString>
+                                <FormattedString.Spans>
+                                    <Span Text="Would you like to add to your order or proceed to check out" FontAttributes="Bold" FontSize="27"/>
+                                </FormattedString.Spans>
+                            </FormattedString>
+                        </Label.FormattedText>
+             </Label>
+        
+             
+    </AbsoluteLayout>
+
+    </ContentPage.Content>
+</ContentPage>
